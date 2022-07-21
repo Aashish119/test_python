@@ -25,6 +25,7 @@ pipeline
             steps 
             {
                 echo 'Deploy'
+                python hello_release.py
             }
         }
     }
