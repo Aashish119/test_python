@@ -17,7 +17,7 @@ pipeline
             steps 
             {
                 echo 'Test'
-                python hello_develop.py
+                bat 'python hello_develop.py'
             }
         }
 
