@@ -17,6 +17,7 @@ pipeline
             steps 
             {
                 echo 'Test'
+                python hello_develop.py
             }
         }
 
